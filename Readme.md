@@ -17,6 +17,7 @@ Assured Fund is a robust crowdfunding application developed using ReactJS, NodeJ
 - **Database**: MongoDB
 
 ## Screenshots
+
 **Admin Panel -**
 ![Admin Panel](https://github.com/Hk0509/Assured-Fund/assets/80637998/e04783a2-c210-4005-bbd6-204de6af7abc)
 
@@ -32,7 +33,6 @@ Assured Fund is a robust crowdfunding application developed using ReactJS, NodeJ
 **Donate Page -**
 ![Donate](https://github.com/Hk0509/Assured-Fund/assets/80637998/1ccd9e62-6913-4909-8d4b-227dd5da8797)
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -42,24 +42,57 @@ Make sure you have the following installed on your local machine:
 - Node.js
 - MongoDB
 
+### Installation
+
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/Hk0509/Assured-Fund.git
+    cd Assured-Fund
+    ```
+
+2. **Install dependencies**
+
+    ```bash
+    npm install
+    cd client
+    npm install
+    cd ..
+    ```
+
+3. **Start the application**
+
+    ```bash
+    # Start the backend server
+    npm run server
+
+    # Start the frontend development server
+    cd client
+    npm start
+    ```
+
+4. **Access the application**
+
+    Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
 ## Usage
 
-**Home Page**: View all crowdfunding campaigns.
+### Home Page: View all crowdfunding campaigns
 
 - Navigate to the home page to see a list of all available crowdfunding campaigns.
 - Use the search bar to find specific campaigns.
 
-**Campaign Details**: Click "Learn More" to view detailed information about a campaign.
+### Campaign Details: Click "Learn More" to view detailed information about a campaign
 
 - View detailed descriptions, goals, and updates on the campaign page.
 - See the progress of the campaign, including the amount donated, number of supporters, and time left.
 
-**Add to Watchlist**: Track your favorite campaigns by adding them to your watchlist.
+### Add to Watchlist: Track your favorite campaigns by adding them to your watchlist
 
 - Click the "Add to Watchlist" button to keep track of your favorite campaigns.
 - Access your watchlist from the navigation bar to monitor progress.
 
-**Admin Panel**: Manage campaigns, orders, and products through the admin panel.
+### Admin Panel: Manage campaigns, orders, and products through the admin panel
 
 - Use the admin panel to create, edit, and delete campaigns.
 - Manage orders and products related to the campaigns.
@@ -99,10 +132,6 @@ We welcome contributions to improve Assured Fund! Here's how you can help:
     ```
 
 7. **Open a Pull Request**: Go to the original repository and open a Pull Request with a description of your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
